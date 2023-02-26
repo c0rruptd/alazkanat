@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: auto;
+    background-color: black;
+    padding-bottom: 30px;
+    right: 0;
+    left: 0;
+    top: 0;
+    border-bottom: 5px solid white;
+    min-width: 370px;
+}
+
+
+.navbar{
+    margin-top: 0;
+    margin-left: 0;
+    
+}
+
+.banner{
+    left: 0;
+    width: 65%;
+}
+
+.navigation{
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center; 
+       
+}
+
+.navigation li{
+    
+    padding: 30px;
+    border-width: 2cm;
+    border-color: white;
+    list-style: none;
+    
+}
+
+.navigation li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    
+}
+
+.navigation .alazkanat a{
+    border: none;
+    font-size: 43px;
+    font-weight: 0px;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.navigation li a:hover{
+    background-color: white;
+    color:black;
+}
+
+section p{
+    font-size: 20px;
+    padding: 30px;
+}
+
+footer{
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: black;
+    padding: 30px;
+}
+
+.icons{
+    color: white;
+    list-style: none;
+}
+
+.icons ul{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons ul li{
+    list-style: none;
+    size: 20px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.icons ul li a{
+    text-decoration: none;
+}
+
+.icons ul li a i{
+    font-size: 30px;
+    color: white;
+    border: 2px solid white;
+    padding: 6px 10px;
+    border-radius: 10px;
+}
+
+.icons ul li a span{
+    font-size: 30px;
+    color: white;
+    border: 2px solid white;
+    padding: 5px 8px;
+    border-radius: 10px;
+}
+
+.icons ul li a i:hover {
+    background-color: white;
+    color: black;
+}
+.icons ul li a span:hover{
+    background-color: white;
+    color: black;
+}
+
+.copyright{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin:20px;
+    color: white;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.4;
+}
