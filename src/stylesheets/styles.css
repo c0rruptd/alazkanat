@@ -1,12 +1,5 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 nav {
   height: auto;
-  background-color: rgb(56, 22, 22);
   padding-bottom: 30px;
   right: 0;
   left: 0;
@@ -72,11 +65,11 @@ section p {
 }
 
 footer {
-  bottom: 0;
-  right: 0;
+  position: absolute;
   left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: black;
-  padding: 30px;
 }
 
 .icons {
